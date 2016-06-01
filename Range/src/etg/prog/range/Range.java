@@ -14,7 +14,7 @@ class Range {
         return num >= begin && num <= end;
     }
 
-     double calcLength() {
+    double calcLength() {
         return end - begin;
     }
 }

@@ -17,7 +17,6 @@ public class Main {
         } else {
             System.out.println("Число НЕ лежит в диапазоне!");
         }
-
     }
 }
 

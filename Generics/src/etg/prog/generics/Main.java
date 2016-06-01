@@ -8,8 +8,5 @@ public class Main {
 
         System.out.println(pair1);
         System.out.println(pair2);
-        //
-
-
     }
 }
