@@ -1,14 +1,20 @@
+package etg.prog.sh;
+
 public abstract class Shape {
 
+    double area;
+    double width;
+    double height;
+
     public double getArea() {
-        return 0;
+        return area;
     }
 
     public double getWidth() {
-        return 0;
+        return width;
     }
 
     public double getHeight() {
-        return 0;
+        return height;
     }
 }

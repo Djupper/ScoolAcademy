@@ -1,3 +1,5 @@
+package etg.prog.ran;
+
 import java.util.Scanner;
 
 public class Main {

@@ -1,3 +1,5 @@
+package etg.prog.ran;
+
 public class Range {
     private int x;
     private int y;

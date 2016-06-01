@@ -1,3 +1,5 @@
+package etg.prog.sh;
+
 public class Triangle extends Shape {
 
     private int x1;

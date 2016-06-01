@@ -1,3 +1,4 @@
+package etg.prog.gen;
 
 public class Pair<K, V> {
     private K first;

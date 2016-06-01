@@ -1,3 +1,5 @@
+package etg.prog.sh;
+
 public class Circle extends Shape {
     private int r;
 
@@ -12,6 +14,6 @@ public class Circle extends Shape {
         return r*2;
     }
     public double getWidth() {
-        return r*2;
+        return width;
     }
 }
