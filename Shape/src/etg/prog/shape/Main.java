@@ -1,4 +1,4 @@
-package etg.prog.sh;
+package etg.prog.shape;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class Main {
         System.out.println();
 
         Circle c1 = new Circle(2);
-        System.out.println("Круг высота " + c1.getHeight());
+        System.out.println("Круг высота 'диаметр' " + c1.getHeight());
         System.out.println("Круг ширина 'диаметр' " + c1.getWidth());
         System.out.printf("Плозщадь круга " + "%.3f", c1.getArea());
 

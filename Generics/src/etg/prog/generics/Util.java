@@ -1,4 +1,4 @@
-package etg.prog.gen;
+package etg.prog.generics;
 
 public class Util {
     public static <K, V> boolean compare(Pair<K, V> p1, Pair<K, V> p2) {

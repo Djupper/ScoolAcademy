@@ -1,16 +1,16 @@
-package etg.prog.sh;
+package etg.prog.shape;
 
 public class Square extends Shape {
 
-    private int length;
+    private double length;
 
-    public Square(int length) {
+    public Square(double length) {
         this.length = length;
     }
 
     public double getArea() {
 
-        return Math.pow(length, 2);
+        return length * length;
     }
 
     public double getWidth() {

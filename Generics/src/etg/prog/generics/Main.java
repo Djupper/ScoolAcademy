@@ -1,4 +1,4 @@
-package etg.prog.gen;
+package etg.prog.generics;
 
 public class Main {
     public static void main(String[] args) {

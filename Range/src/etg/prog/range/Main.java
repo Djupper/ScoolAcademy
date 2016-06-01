@@ -1,4 +1,4 @@
-package etg.prog.ran;
+package etg.prog.range;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class Main {
         int to = s.nextInt();
         Range range = new Range(from, to);
         System.out.println("Ваш диапазон " + range.calcLength());
-        if (range.isInside(a) == true) {
+        if (range.isInside(a)) {
             System.out.println("Число лежит в диапазоне!");
         } else {
             System.out.println("Число НЕ лежит в диапазоне!");

@@ -1,9 +1,9 @@
-package etg.prog.sh;
+package etg.prog.shape;
 
 public class Circle extends Shape {
-    private int radius;
+    private double radius;
 
-    public Circle(int radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 
@@ -12,7 +12,7 @@ public class Circle extends Shape {
     }
 
     public double getHeight() {
-        return height;
+        return radius * 2;
     }
 
     public double getWidth() {
