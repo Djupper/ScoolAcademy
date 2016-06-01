@@ -25,7 +25,7 @@ public class Pair<K, V> {
         return String.format("[%s,%s]", first, second);
     }
 
-    public void setFirst(K first, V second) {
+    public void setFirst(K first) {
         this.first = first;
     }
 
