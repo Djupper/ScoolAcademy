@@ -1,19 +1,19 @@
 package etg.prog.sh;
 
 public class Circle extends Shape {
-    private int r;
+    private int radius;
 
-    public Circle(int r) {
-        this.r = r;
+    public Circle(int radius) {
+        this.radius = radius;
     }
 
     public double getArea() {
-        return Math.PI * Math.pow(r, 2);
+        return Math.PI * Math.pow(radius, 2);
     }
     public double getHeight() {
-        return r*2;
+        return height;
     }
     public double getWidth() {
-        return width;
+        return radius *2;
     }
 }
