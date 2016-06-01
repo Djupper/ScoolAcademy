@@ -28,24 +28,24 @@ public class Triangle extends Shape {
 
     public double getArea() {
 
-        double a = getLength(x1,x2,y1,y2);
-        double b = getLength(x1,x3,y1,y3);
-        double c = getLength(x2,x3,y2,y3);
+        double a = getLength(x1, x2, y1, y2);
+        double b = getLength(x1, x3, y1, y3);
+        double c = getLength(x2, x3, y2, y3);
 
         double square;
         if (a + b <= c || a + c <= b || a + c <= b)
             square = 0;
         else {
-            double p = (a + b + c) / 2.0;
-            square = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+            double semiperimeter = (a + b + c) / 2.0;
+            square = Math.sqrt(semiperimeter * (semiperimeter - a) * (semiperimeter - b) * (semiperimeter - c));
 
         }
         return square;
     }
-    // функция вычисления длинны отрезка
-    private double getLength(int a1, int a2, int b1, int b2 ) {
 
-        return Math.sqrt(Math.pow((a1 - a2),2)  + Math.pow((b1 - b2),2));
+    private double getLength(int a1, int a2, int b1, int b2) {
+
+        return Math.sqrt(Math.pow((a1 - a2), 2) + Math.pow((b1 - b2), 2));
 
     }
 }

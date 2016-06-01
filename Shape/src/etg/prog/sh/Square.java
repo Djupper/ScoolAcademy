@@ -12,6 +12,7 @@ public class Square extends Shape {
 
         return Math.pow(length, 2);
     }
+
     public double getWidth() {
         return length;
     }

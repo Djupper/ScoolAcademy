@@ -24,7 +24,7 @@ public class Main {
 
         Circle c1 = new Circle(2);
         System.out.println("Круг высота " + c1.getHeight());
-        System.out.println("Круг ширина " + c1.getWidth());
+        System.out.println("Круг ширина 'диаметр' " + c1.getWidth());
         System.out.printf("Плозщадь круга " + "%.3f", c1.getArea());
 
     }

@@ -10,10 +10,12 @@ public class Circle extends Shape {
     public double getArea() {
         return Math.PI * Math.pow(radius, 2);
     }
+
     public double getHeight() {
         return height;
     }
+
     public double getWidth() {
-        return radius *2;
+        return radius * 2;
     }
 }
